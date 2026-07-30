@@ -1,0 +1,65 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+
+# Build artifacts
+_site/
+_wechat_build/
+*.log
+*.tmp
+*.pkl
+*.b64
+*.txt.b64
+bugbits-web/*.tmp
+bugbits-web/*_log.txt
+bugbits-web/*.pkl
+bugbits-web/body_html*
+bugbits-web/single_game*
+bugbits-web/test*.html
+bugbits-web/test*.js
+
+# Archived game versions
+bugbits-web/game_phase*.js
+bugbits-web/game_clean*.js
+bugbits-web/game_full*.js
+bugbits-web/game_final*.js
+bugbits-web/game_complete.js
+bugbits-web/game_extended.js
+bugbits-web/game_backup.js
+bugbits-web/game_fixed.js
+bugbits-web/index*.html
+bugbits-web/body_*
+bugbits-web/_part*.js
+bugbits-web/_data.pkl
+
+# Toolkit data output
+bugbits-toolkit/data/
+
+# WeChat build output (generated)
+wechat_minigame/game.js
+
+# Environment
+.env
+set_env.bat
+set_env.ps1
+
+# Screenshots
+*.png
+!bugbits-web/*.png
+*.jpg
+*.jpeg
+
+# Windows shortcuts
+*.lnk
